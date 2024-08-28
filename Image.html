@@ -10,19 +10,8 @@
   <a href="./index.html">Go to about me</a>
  <h1>Responsive Image using Mobile, Tablet and Laptop </h1>
  <p style="color: red;"> <strong>This page is a demonstration of various HTML media elements.</strong></p>
-<picture>
-  <!-- Source for laptops (large screens) -->
-  <source media="(max-width: 480px)" src="./assets/Image/Yaro 768.jpg" width="100%">
-
-  <!-- Source for tablets (medium screens) -->
-  <source media="(max-width: 1024px)" src="./assets/Image/Yaro 768.jpg" width="100%">
-
-  <!-- Source for mobile (small screens) -->
-  <source media="(max-width: 1920px)" src="./assets/Image/Yaro 768.jpg" width="100%">
-
-  <!-- Fallback image -->
-  <img src="./assets/image/Yaro 768.jpg" alt="oche photoz" width="30%">
-</picture>
+<img src="./assets/Image/Yaro 768.jpg" alt="oche photo"
+srcset="./assets/Image/Yaro 360.jpg 480w,./assets/Image/Yaro 540.jpg 720w,./assets/Image/Yaro 768.jpg 1024w">
  <p style="color:orangered;"><em>Here is an image of me displayed differently depending on the device you are using.!</em></p>
  <hr>
  <!-- Other media elements -->
